@@ -1,0 +1,10 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "facesInput",
+      "type": "activityTrigger",
+      "direction": "in"
+    }
+  ]
+}

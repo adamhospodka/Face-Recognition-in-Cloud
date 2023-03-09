@@ -1,0 +1,6 @@
+azure-functions
+azure-functions-durable
+azure-cognitiveservices-vision-face
+azure-identity
+azure-mgmt-media
+azure-storage-blob

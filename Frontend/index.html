@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <script data-main="app" src="lib/require.js"></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+
+    <H1>Face detection  in movie clips 🧑‍🦲</H1>
+    <p>
+        Please type name of selected movie and then upload the movie clip
+    </p>
+    
+    <div id="input-id">
+        <input id="input-name" type="text" placeholder="Enter movie name">
+        </input>
+    </div>
+    <br>
+    <div id="content-container">
+        <div id="button-container">
+            <div>
+                <button id="upload-movie-clip-button" class="big-button">📤 Upload Movie Clip</button>
+            </div>
+
+            <div>
+                <button id="get-orchestrator-status" class="big-button">ℹ️ Get Orchestrator Status</button>
+            </div>
+            <div>
+                <button id="render-actors" class="big-button">🖨️ Print Actors</button>
+            </div>
+
+        </div>
+        <div id="viz-container">
+        </div>
+        <br/>
+        <div id="viz-container2">
+        </div>
+    </div>
+    
+    <input type="file" id="file-input" multiple style="display: none;" />
+
+
+    <!-- ------------------------------------------------- -->
+
+    <script type="module" src="./dist/main.js"></script>
+
+</body>
+
+</html>
